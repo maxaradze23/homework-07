@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+header{
+	background: blue;
+	width: 100%;
+	height: 230px;
+    z-index: 1;
+}
+
+h2{
+	color: white;
+	padding-top: 40px;
+	margin-left: 200px;
+}
+
+.absolute{
+    width: 295px;
+    height: 100px;
+    background-color: whitesmoke;
+    margin-bottom: 443px;
+    margin-right: 125px;
+    border-radius: 15px;
+    position: absolute;
+    left: 210px;
+    top: 352px;
+    border: 1px solid;
+    z-index: 4;
+    text-align: left;
+    padding: 8px 20px 20px 10px;
+}
+
+.relative{
+    position: relative;
+}
+
+img{
+    border-radius: 15px;
+    position: absolute;
+    left: 200px;
+    top: 180px;
+    z-index: 3;
+}
+
+.absolute-02{
+    width: 295px;
+    height: 100px;
+    background-color: whitesmoke;
+    margin-bottom: 443px;
+    margin-right: 125px;
+    border-radius: 15px;
+    position: absolute;
+    left: 540px;
+    top: 313px;
+    border: 1px solid;
+    z-index: 4;
+    text-align: left;
+    padding: 8px 20px 20px 10px
+}
+
+.relative-02{
+    position: relative;
+}
+
+.pic-02{
+    border-radius: 15px;
+    position: absolute;
+    left: 530px;
+    top: 140px;
+    z-index: 3;
+}
+
+.absolute-03{
+    width: 295px;
+    height: 100px;
+    background-color: whitesmoke;
+    margin-bottom: 443px;
+    margin-right: 125px;
+    border-radius: 15px;
+    position: absolute;
+    left: 870px;
+    top: 352px;
+    border: 1px solid;
+    z-index: 4;
+    text-align: left;
+    padding: 8px 20px 20px 10px;
+}
+
+.relative-03{
+    position: relative;
+}
+
+.pic-03{
+    border-radius: 15px;
+    position: absolute;
+    left: 860px;
+    top: 180px;
+    z-index: 3;
+}
+
+.other-projects{
+    text-decoration: none;
+    border-left: 2px solid black;
+    padding-left: 20px;
+    position: absolute;
+    right: 350px;
+    bottom: 200px;
+}
+
+.absolute-04{
+    width: 295px;
+    height: 100px;
+    background-color: whitesmoke;
+    margin-bottom: 443px;
+    margin-right: 125px;
+    border-radius: 15px;
+    position: absolute;
+    left: 1200px;
+    top: 352px;
+    border: 1px solid;
+    z-index: 4;
+    text-align: left;
+    padding: 8px 20px 20px 10px;
+
+}
+
+.relative-04{
+    position: relative;
+}
+
+.pic-04{
+    border-radius: 15px;
+    position: absolute;
+    left: 1190px;
+    top: 180px;
+    z-index: 3;
+}
+
+
